@@ -7,8 +7,7 @@ Consumption Expenditure Survey (HCES) 2022-23** — the same dataset MoSPI/NSSO 
 publish the country's headline poverty and consumption statistics.
 
 The project covers the full pipeline: raw government survey files → Python ETL →
-MySQL → Power BI dashboard, with a strong emphasis on **data validation** — every
-major number in this project is checked against officially published figures, not
+MySQL → Power BI dashboard, with a strong emphasis on **data validation** as some values are checked against officially published figures, not
 just assumed correct.
 
 ---
