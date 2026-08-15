@@ -1,0 +1,21 @@
+# Raw and intermediate data -- too large for GitHub, and shouldn't be
+# redistributed; anyone cloning this repo should download HCES data
+# themselves from microdata.gov.in
+*.csv
+*.parquet
+hces_cache/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Credentials -- never commit a MySQL password or connection string
+*.env
+config.py
+
+# OS junk files
+.DS_Store
+Thumbs.db
