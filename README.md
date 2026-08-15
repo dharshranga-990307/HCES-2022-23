@@ -41,7 +41,6 @@ hces_column_mapping.py  -- renames ~460 cryptic survey column codes to readable 
 transform.py            -- computes MPCE using the official MoSPI formula,
                             applies survey weights, builds income quintiles
 category_analysis.py    -- builds category-wise spend breakdown by segment
-load.py                 -- loads cleaned tables into MySQL
 analyics.sql  -- SQL queries (GROUP BY, JOINs, window functions, CTEs)
 
 ```
@@ -116,7 +115,7 @@ Built in Power BI, includes:
 - Rural MPCE estimate is ~19.6% below the officially published figure; urban is
   within ~1-2%. See Methodology section above for the documented cause.
 - Item-code-to-category mapping for durable goods sections (13-14) is based on the
-  general official reference-period rule, not a fully independently verified
+  general official reference-period rule.
   item-by-item check the way sections 5-12 were.
 - State names use a general code lookup
 
